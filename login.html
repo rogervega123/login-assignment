@@ -1,0 +1,47 @@
+<!--how to vertically align elements using Flex-->
+
+<html>
+ <head>
+     <!-- <script src="https://kit.fontawesome.com/40a826d710.js" crossorigin="anonymous"></script> -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn./font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body {
+    margin: 0;
+}
+#container {
+    align-items: center;
+    background-color: pink;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+#login-form{
+    background-color: white;
+    height: 250px;
+    padding: 16px;
+    width: 125px;
+}
+
+input {
+    width: 100%;
+}
+    </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="login-form">
+            <h1>login</h1>
+            <label> Email </label>
+            <input type="email">
+
+            <label>Password</label>
+            <input type="password">
+
+            <button>login</button>
+        </div>
+    </body>
+</html>
